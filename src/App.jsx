@@ -29,12 +29,12 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center p-6">
       <div className="w-full max-w-xl bg-white/80 backdrop-blur rounded-2xl shadow-lg border border-slate-100 p-8 text-center">
-        <h1 className="text-4xl font-bold tracking-tight text-slate-800">Hello, World! 👋</h1>
-        <p className="mt-3 text-slate-600">A super simple app with a tiny API.</p>
+        <h1 className="text-4xl font-bold tracking-tight text-red-600">Hello, World! 👋</h1>
+        <p className="mt-3 text-red-600">A super simple app with a tiny API.</p>
 
         <div className="mt-8 space-y-2">
           <p className="text-sm uppercase tracking-wider text-slate-500">Backend says</p>
-          <div className="min-h-[48px] flex items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-slate-800 px-4 py-3">
+          <div className="min-h-[48px] flex items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-red-600 px-4 py-3">
             {loading ? 'Loading…' : error ? error : backendMessage}
           </div>
         </div>
